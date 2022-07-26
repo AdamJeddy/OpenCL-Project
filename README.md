@@ -26,9 +26,7 @@ while on the other hand num 2 just adds offset to global id since partition 1 (C
 ## Output
 <div align="center">
 
-![](screenshots/Output%201.png)
-
-![](screenshots/Output%202.png)
-
+![](screenshots/Output%201.png)</br>
+![](screenshots/Output%202.png)</br>
 ![](screenshots/Output%203.png)
 </div>
