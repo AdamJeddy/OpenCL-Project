@@ -24,3 +24,11 @@ The function starts by using num to see which partition should be used, if it is
 while on the other hand num 2 just adds offset to global id since partition 1 (CPU's part) ends there, then it checks if it is less than count (array size) then does the square root
 
 ## Output
+<div align="center">
+
+![](screenshots/Output%201.png)
+
+![](screenshots/Output%202.png)
+
+![](screenshots/Output%203.png)
+</div>
