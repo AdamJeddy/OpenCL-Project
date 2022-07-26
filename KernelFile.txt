@@ -1,0 +1,17 @@
+__kernel void squareRoot(__global int* inputBuffer, __global float* outputBuffer, const unsigned int offset, const unsigned int count, const unsigned int num)
+{
+	int i = get_global_id(0);
+
+	if(num == 1 && i < count && i < offset)
+	{
+		outputBuffer[i] = sqrt((float)inputBuffer[i]);
+	}
+	else if(num == 2)
+	{
+		i = i + offset;
+		if (i < count)
+		{
+			outputBuffer[i] = sqrt((float)inputBuffer[i]);
+		}
+	}
+}
